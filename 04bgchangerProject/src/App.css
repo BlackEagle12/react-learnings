@@ -1,0 +1,28 @@
+  .color-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    transition-duration: 2s;
+  }
+
+  .button-container{
+    width: 100%;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    button{
+      padding: 5px;
+      width: 100px;
+      border-radius: 50px;
+      border: 0.5px solid black;
+      color: white;
+      background-color: unset;
+    }
+  }
